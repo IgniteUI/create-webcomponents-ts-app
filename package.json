@@ -1,14 +1,15 @@
 {
-  "name": "create-webcomponents-app",
+  "name": "create-webcomponents-ts-app",
   "version": "1.0.0",
   "description": "A vanilla TS Web Components app generator",
   "main": "index.js",
+  "bin" : { "create-webcomponents-ts-app" : "./index.js" },
   "scripts": {
     "start": "tsc && node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IgniteUI/create-webcomponents-app.git"
+    "url": "git+https://github.com/IgniteUI/create-webcomponents-ts-app.git"
   },
   "keywords": [
     "IgniteUI",
@@ -22,9 +23,9 @@
   "author": "Infragistics",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IgniteUI/create-webcomponents-app/issues"
+    "url": "https://github.com/IgniteUI/create-webcomponents-ts-app/issues"
   },
-  "homepage": "https://github.com/IgniteUI/create-webcomponents-app#readme",
+  "homepage": "https://github.com/IgniteUI/create-webcomponents-ts-app#readme",
   "dependencies": {
     "yargs": "^15.3.1"
   },
